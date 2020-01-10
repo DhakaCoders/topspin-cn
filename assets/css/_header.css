@@ -3,13 +3,13 @@ header{
 	border-top: 4px solid #4a4846;
     margin-bottom: ;
 }
-.header-inr{
-    padding: x;
+.header-top{
+    padding: ;
 }
 .header-left{
     float: left;
     width: 35%;
-    padding-top: 17px;
+    padding-top: 14px;
 }
 .hdr-rgt{
     float: right;
@@ -24,29 +24,24 @@ header{
 .header-logo a img{
     width: 100%;
 }
-
-
 .hdr-rgt-addr{
-    padding-top: 7px;
-    margin-bottom: 25px;
+    margin-bottom: 27px;
 }
 .hdr-rgt-addr a{
 	display: inline-block;
-	vertical-align: baseline;
+	vertical-align: middle;
 	margin-left: 27px;
 	color: inherit;
+	font-size: 17px;
 }
 .hdr-rgt-addr a img{
 	padding-right: 8px;
 }
-
-
 .hdr-main-menu-controlar{
-	padding: 18px 0;
+	padding: 20px 0;
 }
 nav.main-nav{
     float: right;
-    padding: 0 0px 0 0;
 }
 nav.main-nav ul{
     font-size: 13px;
@@ -59,6 +54,21 @@ nav.main-nav > ul > li > a{
 nav.main-nav > ul > li{
     padding: 0 14px;
     position: relative;
+}
+nav.main-nav > ul > li:after{
+    content: "";
+    height: 9px;
+    width: 1px;
+    background:#737274 ;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+nav.main-nav > ul > li:last-child:after{
+    content: none;
 }
 nav.main-nav > ul > li:last-child{
     padding-right: 0;
@@ -150,15 +160,60 @@ header.banner-header  nav.main-nav ul li a{
 }
 
 
-
-
-
-
-
-
-
-
-
+.hdr-btm-links{
+	background: #eeeeee;
+}
+.hdr-btm-links li{
+	float: left;
+	margin-right: 10px;
+} 
+.hdr-btm-links li a{
+	display: inline-block;
+	vertical-align: baseline;
+	padding: 2px 5px 5px 5px;
+	border: 2px solid #0e72b5;
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+	font-weight:500 ;
+	font-size: 22.3px;
+	text-transform: uppercase;
+	background: #0e72b5;
+}
+.hdr-btm-links li a:hover{
+	color: #0e72b5;
+	background: #fff;
+}
+.hdr-btm-bq{
+	background: #4a4846;
+}
+.hdr-btm-bq-innr{
+	padding-bottom: 4px;	
+}
+.hdr-btm-bq a {
+	display: inline-block;
+	vertical-align: baseline;
+	padding-right:10px;
+	position: relative;
+	font-weight: 400;
+	color: #fff; 
+	font-size: 10px;
+	line-height: 12px;
+}
+.hdr-btm-bq a:hover {
+	color: #0e72b5;
+}
+.hdr-btm-bq a:after {
+	content: '>';
+	position: absolute;
+	right: 0;
+	top: 0;
+	-ms-transition: all .3s ease;
+	-webkit-transition: all .3s ease;
+	transition: all .3s ease;
+}
+.hdr-btm-bq a:hover:after {
+	right: -5px;
+}
 
 
 
