@@ -34,6 +34,9 @@ header{
 	color: inherit;
 	font-size: 17px;
 }
+.hdr-rgt-addr a:hover{
+    color: #0e72b5;
+}
 .hdr-rgt-addr a img{
 	padding-right: 8px;
 }
@@ -84,7 +87,7 @@ nav.main-nav > ul > li > a{
     vertical-align: baseline;
 }
 nav.main-nav > ul > li > a:after{
-    border-bottom: 3px solid #1467c1;
+    border-bottom: 3px solid #0e72b5;
     content: "";
     display: block;
     height: 3px;
@@ -103,7 +106,7 @@ nav.main-nav > ul > li > a:hover:after{
 }
 nav.main-nav > ul > li.current-menu-item > a,
 nav.main-nav > ul > li > a:hover{
-    color:#1467c1;
+    color:#0e72b5;
 }
 
 header.banner-header  nav.main-nav ul li a{
