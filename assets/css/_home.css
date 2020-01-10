@@ -32,14 +32,10 @@
 .pro-grd-des h3{
 	text-transform: uppercase;
 }
-
-
-
 .glassworker-sec-wrp{
 	padding: 55px 0 40px;
 	position: relative;
 }
-
 .glassworker-sec-main{
 	background-image: url('../images/glassworker-bg.jpg');
 	background-repeat: no-repeat;
@@ -47,22 +43,16 @@
 	background-position: center center;
 	min-height: 500px;
 }
-
 .glassworker-img{
 	position: absolute;
 	right: 0;
-	top: 0;
+	top:-55px;
 	bottom: 0;
 }
 .glassworker-sec-innr{
 	padding: 30px 630px 35px 10px;
 }
 
-
-
-.glassworker-sec-main .col-12{
-	position: static!important;
-}
 .glassworker-des-head h1{
 	margin-bottom: 20px;
 }
@@ -87,14 +77,10 @@
 	left: 0;
 	top: 0;
 }
-
-
-
 .pagebuilder-sec-1{
 	padding: 30px 0 50px;
 	color: #000;
 }
-
 .pagebuilder-sec-2{
 	padding: 30px 0 20px;
 	color: #000;
