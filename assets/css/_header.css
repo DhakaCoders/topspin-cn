@@ -223,6 +223,84 @@ header.banner-header  nav.main-nav ul li a{
 
 
 
+/* Sub menu */
+
+nav.main-nav li.menu-item-has-children > ul.sub-menu {
+    position: absolute;
+    top: 100%;
+    background: #fff;
+    width: 190px;
+    left: 0;
+    z-index: 999999;
+    padding: 28px 22px 28px;
+    top: 100%;
+    transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    -o-transform: translateY(-20px);
+    transition: all .5s;
+    -ms-transition: all .5s;
+    -webkit-transition: all .5s;
+    visibility: hidden;
+    opacity: 0;
+    margin-top: 0;
+}
+
+nav.main-nav li.menu-item-has-children:hover > ul.sub-menu {
+    visibility: visible;
+    opacity: 1;
+    z-index: 9;
+    -ms-transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+    -webkit-transition-delay: 0s, 0s, 0.3s;
+    -ms-transition-delay: 0s, 0s, 0.3s;
+    transition-delay: 0s, 0s, 0.3s;
+}
+
+nav.main-nav ul li.menu-item-has-children ul li a{
+    display: block;
+    color: inherit;
+    padding: 5px 0;
+}
+
+nav.main-nav ul li.menu-item-has-children ul{
+    padding: 10px 15px;
+}
+nav.main-nav ul li.menu-item-has-children ul li{
+    padding: 0 0 10px 0;
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+}
+nav.main-nav ul li.menu-item-has-children ul li:last-child{
+    padding-bottom: 0;
+}
+nav.main-nav li.menu-item-has-children ul.sub-menu{
+    list-style: none;
+}
+nav.main-nav li.menu-item-has-children ul.sub-menu a {
+    padding: 2px 0;
+    font-size: 15px;
+    line-height: 17px;
+    transition: none;
+    color: #000;
+    text-decoration: none;
+    text-align: left;
+    font-weight: 600;
+    position: relative;
+}
+nav.main-nav li.menu-item-has-children ul.sub-menu a i{
+    padding-right: 15px;
+}
+nav.main-nav li.menu-item-has-children ul.sub-menu a:hover{
+    color:#153d6d;
+}
+nav.main-nav ul li.menu-item-has-children ul li:last-child{
+    margin-bottom: 0;
+}
+
+
 
 
 

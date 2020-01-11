@@ -119,7 +119,9 @@ img{
 	max-width: 100%;
 	height: auto;
 }
-
+strong{
+	font-weight: 700;
+}
 .hide-lg{
 	display: block!important;
 }
