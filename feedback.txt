@@ -13,36 +13,33 @@ Desktop---->
 	top and bottom ar space amon hobe. upore besi, niche kom
 
 4. https://www.screencast.com/t/UrbQitZ2Mf
-	i) submenu ber hole li ar hover color ta active thakbe
+	i) submenu hover hole li ar hover color ta active thakbe
 	ii) submenu ar font size aktu komate hobe
-	iii) submenu effects ta amra r akta j juse kori oita daw ( transform: scale3d(1,0,1); )
+	iii) submenu effects ta amra r akta j use kori oita daw ( transform: scale3d(1,0,1); )
 
 5. https://www.screencast.com/t/rHUzw5bpN
 	ai blue border ta missing
 
-6. https://www.screencast.com/t/KzdDVyLwdRd4
-	left and right a padding dite hobe ai dive a. bcoz boro img dile border ar sathe lege jete pare
+6. https://www.screencast.com/t/vE0lZsbIX1Qi
+	.png image use korte pare. puro div a background color diyo na. 
 
-7. https://www.screencast.com/t/vE0lZsbIX1Qi
-	ai khane jodi .png img up kora hoy, tahole ki box a width bg ta thakbe? na blue bg dekha jabe?
-
-8. https://www.screencast.com/t/zgLG7c8Bc
+7. https://www.screencast.com/t/zgLG7c8Bc
 	gap kom hobe
 
-9. https://www.screencast.com/t/z7uliVLKluyy
-	i) ai content ar markup . akta div ar vitor thakbe sob tag gulo. 2 ta headin, then p, then ul li
-	ii) ar nicher ul li ar vitore link hote pare abar nao hote pare. design kore rakhte hobe
+8. https://www.screencast.com/t/z7uliVLKluyy
+	i) ai content area ar markup smoth kora jay jabe na? just akta div ar veotr tag gulo hobe.
+	ii) ar nicher ul li ar vitore a tag use korte pare
 
 
-10. https://www.screencast.com/t/Z901kVIBoyco
-	ata uppercase hobena. normal p ar design ata. mane aikhane des hote pare
+9. https://www.screencast.com/t/Z901kVIBoyco
+	ata uppercase hobena. normal p ar design ata. mane aikhane des hote pare. lorem ipsum text diye dao kichu.
 
 
-11. https://www.screencast.com/t/eE2ADva2V
+10. https://www.screencast.com/t/eE2ADva2V
 	gap besi mone hosche
 
-12. https://www.screencast.com/t/mavkMBizXJ
-	amra ki ata use kori?
+11. https://www.screencast.com/t/mavkMBizXJ
+	html entity hobe
 
 
 
