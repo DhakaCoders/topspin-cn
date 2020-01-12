@@ -1,19 +1,16 @@
 
-
-
-
-
-
 .product-des-tow-part{
-	padding: 30px 0 22px;
+	padding: 26px 0 22px;
 }
 .product-des-controller h1{
 	font-size: 39.14px;
-	margin-bottom: 25px;
+	margin-bottom: 22px;
 	text-transform: uppercase;
+	line-height: 1.2
 }
-.product-des-controller{
-	font-size: 19.52px;
+.product-des-controller {
+    font-size: 19.52px;
+    padding-top: 20px;
 }
 .product-des-controller p{
 	font-size: 19.52px;
@@ -27,16 +24,20 @@
 }
 .product-des-left{
 	padding-top: 30px;
+	padding-left: 15px;
+	width: 50%;
+}
+.product-des-right {
+	width: 50%;
 }
 .product-des-right img{
 	margin-left: -57px;
 }
-
-
 .product-table-con{
 	padding: 20px 0 30px;
     margin-left: -6px;
     margin-right: -6px;
+    overflow-x: auto;
 }
 .product-des-controller table {
 	font-family: 'Oswald', sans-serif;
@@ -45,17 +46,101 @@
     width: 100%;
     border-collapse: collapse;
 	text-transform: uppercase;
+	min-width: 744px;
 }
 .product-des-controller table tr,
 .product-des-controller table td{
 	border: 6px solid #fff;
 	background-color: #eee;
-
 }
 .product-des-controller table td{
 	width: 50%;
 	padding: 22px 25px;
 }
+.pro-des-qty{
+	display: inline-block;
+	vertical-align: baseline;
+	position: relative;
+}
+.pro-des-qty .qty {
+	width: 62px;
+	height: 38px;
+	background-color: #fff;
+	position: relative;
+	color: #333;
+	background-color: #fff;
+	border: 1px solid #58b028;
+	top: -3px;
+}
+.pro-des-qty .qty .plus,
+.pro-des-qty .qty .minus{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	cursor: pointer;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 18px;
+	line-height: 1;
+	position: absolute;
+    right: 1px;
+	z-index: 2;
+	color: #45454c;
+	background: #dedede;
+	text-align: center;
+	width: 16px;
+	height: 16px;
+	-webkit-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	transition: all .3s ease;
+}
+.pro-des-qty .qty .plus:hover,
+.pro-des-qty .qty .minus:hover{
+	background: #58b028;
+	color: #fff;
+}
+.pro-des-qty .qty .plus {
+    top: 1px;
+}
+.pro-des-qty .qty .minus {
+    bottom: 1px;
+}
+.pro-des-qty .qty input[type="number"]{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	border: none;
+	background: transparent;
+	-moz-appearance:textfield;
+	appearance: none;
+	letter-spacing: 0.6px;
+	font-size: 18px;
+	line-height: 19px;
+	color: #45454c;
+	opacity: 1;
+	font-weight: 700;
+	padding-top: 8px;
+	padding-left: 8px;
+	text-align:left;
+	width: 62px;
+}         
+.pro-des-qty .qty input[type=number]::-webkit-inner-spin-button, 
+.pro-des-qty .qty input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+    opacity: 0;
+}
+
+.pro-des-qty > strong{
+	display: inline-block;
+	vertical-align: baseline;
+	position: absolute;
+	left: -65px;
+	top: 45%;
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
 
 
 
@@ -64,6 +149,93 @@
 
 
 
+
+
+
+
+
+
+@media(max-width: 1499px){
+
+}
+
+@media(max-width: 1399px){
+	.product-des-right img {
+	    margin-left: 0;
+	}
+	.product-des-left{
+		padding-top: 0;
+		padding-right: 15px;
+	    padding-left: 0;
+	}
+}
+
+@media(max-width: 1299px){
+.product-des-controller table {
+    font-size: 28px;
+}
+}
+
+@media(max-width: 1199px){
+	.product-des-controller p {
+	    font-size: 18px;
+	}
+	.product-des-controller p br{
+	    display: none;
+	}
+	.product-des-controller h1 {
+	    font-size: 34px;
+	}
+	.product-des-controller table {
+	    font-size: 24px;
+	}
+}
+
+@media(max-width: 991px){
+	.product-des-controller h1 {
+	    font-size: 30px;
+	    margin-bottom: 20px;
+	}
+	.product-des-left{
+		padding:0;
+		padding-bottom: 25px;
+		width: 100%;
+	}
+	.product-des-right {
+		width: 100%;
+		text-align: center;
+	}
+	.product-des-controller table td{
+		padding: 16px 10px 16px 15px;
+	}
+	.product-des-controller table {
+	    font-size: 19px;
+	}
+
+}
+
+@media(max-width: 767px){
+	.product-table-con {
+	    margin-right: 0;
+	    padding: 20px 0;
+	}
+	.product-des-controller h1 {
+	    font-size: 25px;
+	    margin-bottom: 17px;
+	}
+}
+
+@media(max-width: 575px){
+
+}
+
+@media(max-width: 479px){
+
+}
+
+@media(max-width: 359px){
+
+}
 
 
 

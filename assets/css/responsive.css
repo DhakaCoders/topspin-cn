@@ -17,6 +17,18 @@
 	.show-lg{
 		display: block!important;
 	}
+	h1{
+		font-size: 32px;
+	}
+	h2{
+		font-size: 27px;
+	}
+	h4{
+		font-size: 22px;
+	}
+	h5{
+		  
+	}
 
 }
 
@@ -27,7 +39,18 @@
 	.show-md{
 		display: block!important;
 	}
-	
+	h1{
+		font-size: 30px;
+	}
+	h2{
+		font-size: 25px;
+	}
+	h4{
+		font-size: 20px;
+	}
+	h5{
+		 
+	}
 }
 
 @media(max-width: 767px){
@@ -36,6 +59,18 @@
 	}
 	.show-sm{
 		display: block!important;
+	}
+	h1{
+		font-size: 28px;
+	}
+	h2{
+		font-size: 24px;
+	}
+	h4{
+		font-size: 20px;
+	}
+	h5{
+		 
 	}
 }
 

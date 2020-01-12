@@ -31,9 +31,9 @@
   <![endif]-->	
 
 </head>
-<body>
-
-<header class="header">    
+<body> 
+ 
+<header class="header">
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
@@ -43,45 +43,81 @@
               <a href="#"><img src="assets/images/logo.jpg"></a>
             </div>
           </div>
-          <div class="hdr-rgt">
-            <div class="hdr-rgt-addr text-right">
-              <a href="#"><img src="assets/images/hdr-mail-icon.jpg" alt="">info@topspininternational.nl</a>
-              <a href="#"><img src="assets/images/hdr-cell-icon.jpg" alt="">0599 648 999</a>
+          <div class="header-right clearfix">
+            <div class="hide-md">
+              <div class="hdr-rgt-addr text-right">
+                <a href="#"><img src="assets/images/hdr-mail-icon.jpg" alt="">info@topspininternational.nl</a>
+                <a href="#"><img src="assets/images/hdr-cell-icon.jpg" alt="">0599 648 999</a>
+              </div>
+              <div class="hdr-main-menu-controlar clearfix">         
+                <nav class="main-nav text-right">
+                  <ul class="clearfix ulc">   
+                    <li><a href="#">home</a></li>
+                    <li class="menu-item-has-children">
+                      <a href="#">producten</a>
+                      <ul class="sub-menu ulc">
+                        <li><a href="#">Sub menu item</a></li>
+                        <li><a href="#">Sub menu item</a></li>
+                        <li><a href="#">Sub menu item</a></li>
+                        <li><a href="#">Sub menu item</a></li>
+                        <li><a href="#">Sub menu item</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">service & parts</a></li>
+                    <li><a href="#">over ons</a></li>
+                    <li><a href="#">levering</a></li>
+                    <li><a href="#">uw offerte <span class="notification-cls">2</span></a></li>
+                    <li><a href="#">contact</a></li>
+                  </ul>
+                </nav>                  
+              </div>              
             </div>
-            <div class="hdr-main-menu-controlar clearfix">
-              <div class="mmenu-opener main-nav-opener">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>           
-              <nav class="main-nav text-right">
-                <ul class="clearfix ulc">   
+            <div class="hdr-rgt-md-addr show-md">
+              <ul class="ulc clearfix">
+                <li><a href="#"><img src="assets/images/hdr-md-home-icon.png" alt=""></a></li>
+                <li><a href="#"><img src="assets/images/hdr-md-mail-icon.png" alt=""></a></li>
+                <li><a href="#"><img src="assets/images/hdr-md-phn-icon.png" alt=""></a></li>
+              </ul>
+            </div>
+            <div class="home-bnr-md-nav-bar-controller show-md">
+              <div class="md-menu-btn-bar clearfix">
+                <div class="md-menu-humberger-btn">
+                  <span><img src="assets/images/humberger-icon.png" alt=""></span>
+                  <strong>Menu</strong>
+                </div>
+              </div>
+            </div>
+            <div class="md-popup-main-menu-wrap ">
+              <nav class="md-popup-main-nav clearfix">
+                <ul class="clearfix">
                   <li><a href="#">home</a></li>
                   <li class="menu-item-has-children">
-                    <a href="#">producten</a>
+                    <a href="#">Producten</a>
                     <ul class="sub-menu ulc">
-                      <li><a href="#">Sub menu item</a></li>
-                      <li><a href="#">Sub menu item</a></li>
-                      <li><a href="#">Sub menu item</a></li>
-                      <li><a href="#">Sub menu item</a></li>
-                      <li><a href="#">Sub menu item</a></li>
+                      <li><a href="#">kanaalliften</a></li>
+                      <li><a href="#">glasliften</a></li>
+                      <li><a href="#">glasrobots</a></li>
+                      <li><a href="#">glaszuigers</a></li>
+                      <li><a href="#">glastransporters</a></li>
                     </ul>
                   </li>
-                  <li><a href="#">service & parts</a></li>
-                  <li><a href="#">over ons</a></li>
-                  <li><a href="#">levering</a></li>
-                  <li><a href="#">uw offerte</a></li>
-                  <li><a href="#">contact</a></li>
+                  <li><a href="#">SERVICE & PARTS</a></li>
+                  <li><a href="#">Over ons</a></li>
+                  <li><a href="#">lEVERING</a></li>
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">Offerte lijst <span class="notification-cls">2</span></a></li>
                 </ul>
-              </nav>                  
+              </nav>
+              <div class="md-menu-popup-close-btn">
+                <span>X</span>
+              </div>
             </div>
-        
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="hdr-btm-links">
+  <div class="hdr-btm-links hide-md">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -97,19 +133,22 @@
       </div>
     </div>
   </div>
-  <div class="hdr-btm-bq">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="hdr-btm-bq-innr">
-            <a href="#">home</a>     
-          </div>                          
-        </div>
+</header>
+
+<div class="hdr-btm-bq">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="hdr-breadcrumbs">
+          <ul>           
+            <li><a href="#">Home</a></li>  
+            <li><a href="#">glasliften</a></li>  
+          </ul>
+        </div>     
       </div>
     </div>
   </div>
-</header>
-
+</div>
 
 <section class="product-cat-sec">
   <div class="container">
@@ -118,10 +157,8 @@
         <div class="cat-controller product-des-controller">
           <h1>GLASliften, van handige tilhulp tot offroad robotrijder</h1>
           <p>Hieronder vindt u een verkorte opsomming van ons assortiment aan glasliften en glasmontageliften. Klik op de onderstaande glasliften om naar de juiste glaslift pagina te gaan. Staat de glaslift die u zoekt er niet bij, kijk dan ook nog eens bij onze overige montageliften, glasrobots en materiaalliften. Uiteraard kunt u ons natuurlijk ook altijd even bellen voor advies over de gewenste montagelift.</p>
-          <hr/>
           <div class="product-cat-block-wrp">
             <ul class="ulc">
-
               <li>
                 <div class="pro-cat-block-head">
                   <ul class="ulc clearfix">
@@ -143,7 +180,6 @@
                   <p>Tekstveld die je kunt <strong>veranderen</strong> naar wens zoals bijvoorbeeld een beknopte omschrijving. Hier een voorbeeld. Onze prachtige Glassworker 425 beschikt over een accurange van 2 uur continu werken en kan maar liefst <strong>6500mm</strong> de hoogte in met een maximale load van <strong>950kg.</strong></p>
                 </div>
               </li>
-
               <li>
                 <div class="pro-cat-block-head">
                   <ul class="ulc clearfix">
@@ -165,7 +201,6 @@
                   <p>Tekstveld die je kunt <strong>veranderen</strong> naar wens zoals bijvoorbeeld een beknopte omschrijving. Hier een voorbeeld. Onze prachtige Glassworker 425 beschikt over een accurange van 2 uur continu werken en kan maar liefst <strong>6500mm</strong> de hoogte in met een maximale load van <strong>950kg.</strong> <br>There are also possibilitys that the text has 3 or more lines like here, then the padding after the last line must be the same like everywhere.</p>
                 </div>
               </li>
-
               <li>
                 <div class="pro-cat-block-head">
                   <ul class="ulc clearfix">
@@ -187,12 +222,9 @@
                 <p>uiterst compacte, <strong>lichtgewicht montagelift,</strong> snel in positie te brengen. De lift is <strong>voorzien van een normaal montageplateau</strong> zodat ook bv. buitenzonwering of een airco-unit. Inclusief glaskop voorzien van 4 glaszuigers en uitschuifbare ondersteuning <strong>voor glasplaten tot 400cm.</strong> </p>
                 </div>
               </li>
-
             </ul>
           </div>
-
           <hr/>
-
           <h1>CATEGORY PAGE &nbsp; - PAGEBUILDER FOOTER CONTENT</h1>
           <span>Hier zou je nog meer teksten kunnen proppen wanneer nodig.</span>
         </div>                          
@@ -200,6 +232,7 @@
     </div>
   </div>
 </section>
+
 
 <!-- -- Gap markup--- -->
 <div class="gap" data-value='100' data-md='50' data-xs='40' data-sm='30' data-xxs='20'></div>

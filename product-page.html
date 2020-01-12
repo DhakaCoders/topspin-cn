@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html> 
 <head>
 	<title>Product page</title>
   <meta charset="utf-8">
@@ -33,7 +33,7 @@
 </head>
 <body>
 
-<header class="header">    
+<header class="header">
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
@@ -43,45 +43,81 @@
               <a href="#"><img src="assets/images/logo.jpg"></a>
             </div>
           </div>
-          <div class="hdr-rgt">
-            <div class="hdr-rgt-addr text-right">
-              <a href="#"><img src="assets/images/hdr-mail-icon.jpg" alt="">info@topspininternational.nl</a>
-              <a href="#"><img src="assets/images/hdr-cell-icon.jpg" alt="">0599 648 999</a>
+          <div class="header-right clearfix">
+            <div class="hide-md">
+              <div class="hdr-rgt-addr text-right">
+                <a href="#"><img src="assets/images/hdr-mail-icon.jpg" alt="">info@topspininternational.nl</a>
+                <a href="#"><img src="assets/images/hdr-cell-icon.jpg" alt="">0599 648 999</a>
+              </div>
+              <div class="hdr-main-menu-controlar clearfix">         
+                <nav class="main-nav text-right">
+                  <ul class="clearfix ulc">   
+                    <li><a href="#">home</a></li>
+                    <li class="menu-item-has-children">
+                      <a href="#">producten</a>
+                      <ul class="sub-menu ulc">
+                        <li><a href="#">Sub menu item</a></li>
+                        <li><a href="#">Sub menu item</a></li>
+                        <li><a href="#">Sub menu item</a></li>
+                        <li><a href="#">Sub menu item</a></li>
+                        <li><a href="#">Sub menu item</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">service & parts</a></li>
+                    <li><a href="#">over ons</a></li>
+                    <li><a href="#">levering</a></li>
+                    <li><a href="#">uw offerte <span class="notification-cls">2</span></a></li>
+                    <li><a href="#">contact</a></li>
+                  </ul>
+                </nav>                  
+              </div>              
             </div>
-            <div class="hdr-main-menu-controlar clearfix">
-              <div class="mmenu-opener main-nav-opener">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>           
-              <nav class="main-nav text-right">
-                <ul class="clearfix ulc">   
+            <div class="hdr-rgt-md-addr show-md">
+              <ul class="ulc clearfix">
+                <li><a href="#"><img src="assets/images/hdr-md-home-icon.png" alt=""></a></li>
+                <li><a href="#"><img src="assets/images/hdr-md-mail-icon.png" alt=""></a></li>
+                <li><a href="#"><img src="assets/images/hdr-md-phn-icon.png" alt=""></a></li>
+              </ul>
+            </div>
+            <div class="home-bnr-md-nav-bar-controller show-md">
+              <div class="md-menu-btn-bar clearfix">
+                <div class="md-menu-humberger-btn">
+                  <span><img src="assets/images/humberger-icon.png" alt=""></span>
+                  <strong>Menu</strong>
+                </div>
+              </div>
+            </div>
+            <div class="md-popup-main-menu-wrap ">
+              <nav class="md-popup-main-nav clearfix">
+                <ul class="clearfix">
                   <li><a href="#">home</a></li>
                   <li class="menu-item-has-children">
-                    <a href="#">producten</a>
+                    <a href="#">Producten</a>
                     <ul class="sub-menu ulc">
-                      <li><a href="#">Sub menu item</a></li>
-                      <li><a href="#">Sub menu item</a></li>
-                      <li><a href="#">Sub menu item</a></li>
-                      <li><a href="#">Sub menu item</a></li>
-                      <li><a href="#">Sub menu item</a></li>
+                      <li><a href="#">kanaalliften</a></li>
+                      <li><a href="#">glasliften</a></li>
+                      <li><a href="#">glasrobots</a></li>
+                      <li><a href="#">glaszuigers</a></li>
+                      <li><a href="#">glastransporters</a></li>
                     </ul>
                   </li>
-                  <li><a href="#">service & parts</a></li>
-                  <li><a href="#">over ons</a></li>
-                  <li><a href="#">levering</a></li>
-                  <li><a href="#">uw offerte</a></li>
-                  <li><a href="#">contact</a></li>
+                  <li><a href="#">SERVICE & PARTS</a></li>
+                  <li><a href="#">Over ons</a></li>
+                  <li><a href="#">lEVERING</a></li>
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">Offerte lijst <span class="notification-cls">2</span></a></li>
                 </ul>
-              </nav>                  
+              </nav>
+              <div class="md-menu-popup-close-btn">
+                <span>X</span>
+              </div>
             </div>
-        
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="hdr-btm-links">
+  <div class="hdr-btm-links hide-md">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -97,18 +133,21 @@
       </div>
     </div>
   </div>
-  <div class="hdr-btm-bq">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="hdr-btm-bq-innr">
-            <a href="#">home</a>     
-          </div>                          
-        </div>
+</header>
+
+<div class="hdr-btm-bq">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="hdr-breadcrumbs">
+          <ul>           
+            <li><a href="#">Home</a></li>
+          </ul>
+        </div>     
       </div>
     </div>
   </div>
-</header>
+</div>
 
 
 <section class="product-des-sec">
@@ -116,8 +155,33 @@
     <div class="row">
       <div class="col-12">
         <div class="product-des-controller">
+          <div class="pro-des-head-blc">
+            <ul class="ulc clearfix">
+              <li>
+                <img src="assets/images/cat-img-icon-01.png" alt="">
+                <h2>Glassworker 425 Offroad </h2>
+              </li>
+              <li>
+                <span>Bruto prijs:</span>
+                <strong>33.085,-</strong>
+                <span class="clearfix"></span>
+              </li>
+              <li>
+                <div class="pro-des-qty clearfix">
+                  <div class="qty">
+                    <span class="minus">-</span>
+                    <input min="1" type="number" class="count" name="qty" value="1">
+                    <span class="plus">+</span>
+                  </div>
+                  <strong>aantal</strong>
+                </div>
+                <div class="qnt-divider"></div>
+                <a href="#">Toevoegen aan offerte</a>
+              </li>
+            </ul>
+          </div>
           <div class="product-des-tow-part clearfix">
-            <div class="product-des-left float-left w-50 pl-3">
+            <div class="product-des-left float-left">
               <h1>Dé Nieuwe GENERATIE IN GLASROBOTS</h1>
               <p>De Glassworker GW425 Offroad HL is de krachtigste en <br>veiligste glasrobot in zijn klasse. Hij is uitgevoerd met sterke <br> voorwielaandrijving en bredere geprofileerde luchtbanden <br> en kan tot maximaal 425kg liften. </p> 
               <p>Alle vacuümtechniek zit voor in de glaskop, waardoor deze <br> 360°gedraaid kan worden en er geen vacuümslangen meer <br> in de weg zitten of klem kunnen raken. </p> 
@@ -127,7 +191,7 @@
                 <li>> Bekijk alle glasrobots.</li>
               </ul>
             </div>
-            <div class="product-des-right float-left w-50">
+            <div class="product-des-right float-left w-md-50">
               <img src="assets/images/single-pro-img-001.png" alt="">
             </div>
           </div>
@@ -159,7 +223,6 @@
             </table>
           </div>
           <hr/>
-
           <h1>Een zelf in te delen product pagina \ landingpage</h1>
           <span>Tekst voorbeeld.</span>
         </div>                          
@@ -167,6 +230,7 @@
     </div>
   </div>
 </section>
+
 
 <!-- -- Gap markup--- -->
 <div class="gap" data-value='100' data-md='50' data-xs='40' data-sm='30' data-xxs='20'></div>
