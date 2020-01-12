@@ -1,48 +1,4 @@
-Home
---------------
 
-Desktop---->
-1. https://www.screencast.com/t/rzomSRZxPEWV
-	i) font-size and color match hoyni
-	ii) ai icon tar positon thik nai
-
-2. https://www.screencast.com/t/hYCzcauD4xl7
-	font-size 17 hobe
-
-3. https://www.screencast.com/t/db2cmvQK2
-	top and bottom ar space amon hobe. upore besi, niche kom
-
-4. https://www.screencast.com/t/UrbQitZ2Mf
-	i) submenu ber hole li ar hover color ta active thakbe
-	ii) submenu ar font size aktu komate hobe
-	iii) submenu effects ta amra r akta j juse kori oita daw ( transform: scale3d(1,0,1); )
-
-5. https://www.screencast.com/t/rHUzw5bpN
-	ai blue border ta missing
-
-6. https://www.screencast.com/t/KzdDVyLwdRd4
-	left and right a padding dite hobe ai dive a. bcoz boro img dile border ar sathe lege jete pare
-
-7. https://www.screencast.com/t/vE0lZsbIX1Qi
-	ai khane jodi .png img up kora hoy, tahole ki box a width bg ta thakbe? na blue bg dekha jabe?
-
-8. https://www.screencast.com/t/zgLG7c8Bc
-	gap kom hobe
-
-9. https://www.screencast.com/t/z7uliVLKluyy
-	i) ai content ar markup . akta div ar vitor thakbe sob tag gulo. 2 ta headin, then p, then ul li
-	ii) ar nicher ul li ar vitore link hote pare abar nao hote pare. design kore rakhte hobe
-
-
-10. https://www.screencast.com/t/Z901kVIBoyco
-	ata uppercase hobena. normal p ar design ata. mane aikhane des hote pare
-
-
-11. https://www.screencast.com/t/eE2ADva2V
-	gap besi mone hosche
-
-12. https://www.screencast.com/t/mavkMBizXJ
-	amra ki ata use kori?
 
 
 
