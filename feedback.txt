@@ -43,7 +43,48 @@ Desktop---->
 
 
 
+Product page
+-------------------
+
+Desktop---->
+1. https://www.screencast.com/t/1KH5JATpn
+   design ar sathe cross check koro. Div ar vetor ul li keno nicho? child div/class use koro.
+
+2. https://www.screencast.com/t/TmYoMVJo
+	left and right side ar gap ta match hoyni
+
+3. https://www.screencast.com/t/Fq22G3mq
+	ai text 2 ta psd ar sathe match hoyni
+
+4. https://www.screencast.com/t/gby2vBim
+	ai 2 ta text always aksathe thakbe. float badh dile thik thakbe maybe
+
+5. https://www.screencast.com/t/YUwIbknssIbN
+	uppercase hobe
+
+6. https://www.screencast.com/t/n3c1Cwg8
+	br tag use na kore, right a padding use kore fix kora jay naki. try kore dekhte paro
+
+7. https://www.screencast.com/t/Gn1iAjG3Mswu
+	gap besi hobe
 
 
 
+Product Cat page
+--------------------
 
+Desktop---->
+1. https://www.screencast.com/t/Hsu2lg91c
+	ai arrow ta 2 ta text ar center a hobe
+
+2. https://www.screencast.com/t/AT9pIyFt
+	ai fix gulo ager motoi hobe
+
+3. https://www.screencast.com/t/zjJSlM0e
+	khub bipode na porle, alaways img ar akta parent div thakbe.
+
+4. https://www.screencast.com/t/IrcVGmCcv
+	hover korle arrow icon ta smoothly right a jay na
+
+5. https://www.screencast.com/t/KBg7Wijurtl
+	gap besi hobe
