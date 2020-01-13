@@ -6,15 +6,21 @@
 	font-size: 39.14px;
 	margin-bottom: 22px;
 	text-transform: uppercase;
-	line-height: 1.2
 }
 .product-des-controller {
     font-size: 19.52px;
     padding-top: 20px;
 }
+.product-des-left-pera{
+	padding-right: 90px;
+}
 .product-des-controller p{
 	font-size: 19.52px;
 	margin-bottom: 20px;
+}
+
+.product-des-controller p br{
+	display: none;
 }
 .product-des-controller hr{
 	border: 0;
@@ -57,6 +63,9 @@
 	width: 50%;
 	padding: 22px 25px;
 }
+.pro-page-dft-blc{
+	padding: 35px 0 ;
+}
 .pro-des-qty{
 	display: inline-block;
 	vertical-align: baseline;
@@ -89,6 +98,10 @@
 	text-align: center;
 	width: 16px;
 	height: 16px;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+	user-select: none; 
 	-webkit-transition: all .3s ease;
 	-ms-transition: all .3s ease;
 	transition: all .3s ease;
@@ -167,6 +180,9 @@
 		padding-top: 0;
 		padding-right: 15px;
 	    padding-left: 0;
+	}
+	.product-des-left-pera {
+	    padding-right: 0;
 	}
 }
 

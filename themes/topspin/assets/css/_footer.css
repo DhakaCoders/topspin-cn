@@ -66,6 +66,7 @@
 	font-family: 'Oswald', sans-serif;
 	font-weight: 300;
 	font-size: 12.5px;
+	line-height: 13px;
 	text-transform: uppercase;
 	position: relative;
 	padding-left: 18px;
@@ -73,7 +74,7 @@
 .ftr-col.ftr-col-5 li img{
 	padding-right: 7px;
 	position: absolute;
-	top: 7px;
+	top: 1px;
 	left: 0;
 }
 .ftr-btm-wrp{

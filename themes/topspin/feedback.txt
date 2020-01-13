@@ -1,45 +1,44 @@
 Home
---------------
+-------------- 
 
 Desktop---->
 1. https://www.screencast.com/t/rzomSRZxPEWV
-	i) font-size and color match hoyni
-	ii) ai icon tar positon thik nai. Aktu opre jabe mone hochce.
+	i) font-size and color match hoyni --done
+	ii) ai icon tar positon thik nai. Aktu opre jabe mone hochce. --done
 
 2. https://www.screencast.com/t/hYCzcauD4xl7
-	font-size 17 hobe
+	font-size 17 hobe --done
 
 3. https://www.screencast.com/t/db2cmvQK2
-	top and bottom ar space amon hobe. upore besi, niche kom
+	top and bottom ar space amon hobe. upore besi, niche kom --done
 
 4. https://www.screencast.com/t/UrbQitZ2Mf
-	i) submenu hover hole li ar hover color ta active thakbe
-	ii) submenu ar font size aktu komate hobe
-	iii) submenu effects ta amra r akta j use kori oita daw ( transform: scale3d(1,0,1); )
-
+	i) submenu hover hole li ar hover color ta active thakbe --done
+	ii) submenu ar font size aktu komate hobe --done
+	iii) submenu effects ta amra r akta j use kori oita daw ( transform: scale3d(1,0,1); ) --done
 5. https://www.screencast.com/t/rHUzw5bpN
-	ai blue border ta missing
+	ai blue border ta missing --done
 
 6. https://www.screencast.com/t/vE0lZsbIX1Qi
-	.png image use korte pare. puro div a background color diyo na. 
+	.png image use korte pare. puro div a background color diyo na.  --done
 
 7. https://www.screencast.com/t/zgLG7c8Bc
-	gap kom hobe
+	gap kom hobe --done
 
 8. https://www.screencast.com/t/z7uliVLKluyy
-	i) ai content area ar markup smoth kora jay jabe na? just akta div ar veotr tag gulo hobe.
-	ii) ar nicher ul li ar vitore a tag use korte pare
+	i) ai content area ar markup smoth kora jay jabe na? just akta div ar veotr tag gulo hobe. --done
+	ii) ar nicher ul li ar vitore a tag use korte pare --done
 
 
 9. https://www.screencast.com/t/Z901kVIBoyco
-	ata uppercase hobena. normal p ar design ata. mane aikhane des hote pare. lorem ipsum text diye dao kichu.
+	ata uppercase hobena. normal p ar design ata. mane aikhane des hote pare. lorem ipsum text diye dao kichu. --done
 
 
 10. https://www.screencast.com/t/eE2ADva2V
-	gap besi mone hosche
+	gap besi mone hosche --done
 
 11. https://www.screencast.com/t/mavkMBizXJ
-	html entity hobe
+	html entity hobe --done
 
 
 
@@ -48,25 +47,25 @@ Product page
 
 Desktop---->
 1. https://www.screencast.com/t/1KH5JATpn
-   design ar sathe cross check koro. Div ar vetor ul li keno nicho? child div/class use koro.
+   design ar sathe cross check koro. Div ar vetor ul li keno nicho? child div/class use koro. --done
 
 2. https://www.screencast.com/t/TmYoMVJo
-	left and right side ar gap ta match hoyni
+	left and right side ar gap ta match hoyni --done
 
 3. https://www.screencast.com/t/Fq22G3mq
-	ai text 2 ta psd ar sathe match hoyni
+	ai text 2 ta psd ar sathe match hoyni red
 
 4. https://www.screencast.com/t/gby2vBim
-	ai 2 ta text always aksathe thakbe. float badh dile thik thakbe maybe
+	ai 2 ta text always aksathe thakbe. float badh dile thik thakbe maybe --done
 
 5. https://www.screencast.com/t/YUwIbknssIbN
-	uppercase hobe
+	uppercase hobe --done
 
 6. https://www.screencast.com/t/n3c1Cwg8
-	br tag use na kore, right a padding use kore fix kora jay naki. try kore dekhte paro
+	br tag use na kore, right a padding use kore fix kora jay naki. try kore dekhte paro --done
 
 7. https://www.screencast.com/t/Gn1iAjG3Mswu
-	gap besi hobe
+	gap besi hobe --done
 
 
 
@@ -78,13 +77,13 @@ Desktop---->
 	ai arrow ta 2 ta text ar center a hobe
 
 2. https://www.screencast.com/t/AT9pIyFt
-	ai fix gulo ager motoi hobe
+	ai fix gulo ager motoi hobe --done
 
 3. https://www.screencast.com/t/zjJSlM0e
-	khub bipode na porle, alaways img ar akta parent div thakbe.
+	khub bipode na porle, alaways img ar akta parent div thakbe. --done
 
 4. https://www.screencast.com/t/IrcVGmCcv
-	hover korle arrow icon ta smoothly right a jay na
+	hover korle arrow icon ta smoothly right a jay na --done
 
 5. https://www.screencast.com/t/KBg7Wijurtl
 	gap besi hobe
