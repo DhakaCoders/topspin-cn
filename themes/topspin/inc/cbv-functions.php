@@ -67,68 +67,8 @@ function cbv_imagegrid( $image, $desc, $position = 'left' ){
 	}
 	return $output;
 }
-
-function hex2RGB($hexStr, $opacity = 1, $returnAsString = true, $seperator = ',') {
-    $hexStr = preg_replace("/[^0-9A-Fa-f]/", '', $hexStr); // Gets a proper hex string
-    $rgbArray = array();
-    if (strlen($hexStr) == 6) { //If a proper hex code, convert using bitwise operation. No overhead... faster
-        $colorVal = hexdec($hexStr);
-        $rgbArray['red'] = 0xFF & ($colorVal >> 0x10);
-        $rgbArray['green'] = 0xFF & ($colorVal >> 0x8);
-        $rgbArray['blue'] = 0xFF & $colorVal;
-        $rgbArray['opacity'] = $opacity;
-    } elseif (strlen($hexStr) == 3) { //if shorthand notation, need some string manipulations
-        $rgbArray['red'] = hexdec(str_repeat(substr($hexStr, 0, 1), 2));
-        $rgbArray['green'] = hexdec(str_repeat(substr($hexStr, 1, 1), 2));
-        $rgbArray['blue'] = hexdec(str_repeat(substr($hexStr, 2, 1), 2));
-        $rgbArray['opacity'] = $opacity;
-    } else {
-        return false; //Invalid hex color code
-    }
-    return $returnAsString ? implode($seperator, $rgbArray) : $rgbArray; // returns the rgb string or the associative array
-}
 function cc_mime_types($mimes) {
   $mimes['svg'] = 'image/svg+xml';
   return $mimes;
 }
 add_filter('upload_mimes', 'cc_mime_types');
-
-/* Convert hexdec color string to rgb(a) string */
-
-function mediKhex2rgba($color, $opacity = 1) {
-
-  $default = 'rgb(0,0,0)';
-
-  //Return default if no color provided
-  if(empty($color))
-          return $default; 
-
-  //Sanitize $color if "#" is provided 
-        if ($color[0] == '#' ) {
-          $color = substr( $color, 1 );
-        }
-
-        //Check if color has 6 or 3 characters and get values
-        if (strlen($color) == 6) {
-                $hex = array( $color[0] . $color[1], $color[2] . $color[3], $color[4] . $color[5] );
-        } elseif ( strlen( $color ) == 3 ) {
-                $hex = array( $color[0] . $color[0], $color[1] . $color[1], $color[2] . $color[2] );
-        } else {
-                return $default;
-        }
-
-        //Convert hexadec to rgb
-        $rgb =  array_map('hexdec', $hex);
-
-        //Check if opacity is set(rgba or rgb)
-        if($opacity){
-          if(abs($opacity) > 1)
-            $opacity = 1.0;
-          $output = 'rgba('.implode(",",$rgb).','.$opacity.')';
-        } else {
-          $output = 'rgb('.implode(",",$rgb).')';
-        }
-
-        //Return rgb(a) color string
-        return $output;
-}
