@@ -122,7 +122,11 @@
 .pagebuilder-sec-3{
 	padding: 80px 0 50px;
 }
-
+.pagebuilder-sec-1-innr,
+.pagebuilder-sec-1-innr,
+.pagebuilder-sec-1-innr{
+	padding-left: 10px;
+}
 
 
 
@@ -185,6 +189,12 @@
 	.pro-grd-des {
 	    padding: 10px 4px 15px 7px;
 	}
+	.pagebuilder-sec-1-innr,
+	.pagebuilder-sec-1-innr,
+	.pagebuilder-sec-1-innr{
+		padding-left: 0;
+	}
+
 }
 
 @media(max-width: 991px){ 

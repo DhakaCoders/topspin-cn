@@ -32,6 +32,17 @@
 	left: 0;
 	top: 0;
 }
+.cat-controller.product-des-controller li:after{
+	content: none !important;
+}
+
+.product-des-controller.product-des-controller li{
+	position: relative;
+	padding-left: 0;
+    border: 10px solid #eee;
+    border-top: 0;
+    margin-bottom: 35px;
+}
 .product-des-controller hr{
 	border: 0;
 	border-top: 19px solid #eee;
@@ -74,7 +85,7 @@
 	padding: 22px 25px;
 }
 .pro-page-dft-blc{
-	padding: 35px 0 ;
+	padding: 35px 0 35px 10px ;
 }
 .pro-des-qty{
 	display: inline-block;

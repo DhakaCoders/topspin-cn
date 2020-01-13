@@ -120,12 +120,14 @@
 }
 
 .cat-page-dft-blc{
-	padding: 50px 0 40px;
+	padding: 50px 0 40px 10px;
 }
 .qnt-divider{
 	display: none;
 }
-
+.product-cat-top-block{
+	padding-left: 10px;
+}
 
 
 
@@ -178,6 +180,10 @@
 	}	
 	.pro-des-head-blc .des-head-blc-rgt{
 	    width: 42%;
+	}
+	.product-cat-top-block,
+	.cat-page-dft-blc {
+	    padding-left:0;
 	}
 }
 
