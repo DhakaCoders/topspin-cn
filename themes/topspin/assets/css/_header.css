@@ -1,7 +1,6 @@
 
 header{
-	border-top: 4px solid #4a4846;
-    margin-bottom: ;
+	border-top: 4px solid #eee;
 } 
 .header-top{ 
     padding: ; 
@@ -94,7 +93,8 @@ nav.main-nav > ul > li > a:after{
     content: "";
     display: block;
     height: 3px;
-    left: -1px;
+    left: 0;
+    right: 0;
     position: absolute;
     top: 100%;
     transform: scale(0, 1);
@@ -206,7 +206,9 @@ span.notification-cls {
     font-size: 21.31px;
     padding: 7px 5px 8px;
 }
-
+.srlOff{
+    overflow: hidden;
+}
 
 
 /* Sub menu */
@@ -366,7 +368,7 @@ nav.main-nav > ul > li.menu-item-has-children:hover > a:after{
         bottom: 0;
         background: #0e72b5;
         width: 100%;
-        opacity: .97;
+        opacity: .95;
     }
     .md-nav-bar-controller{
         position: fixed;

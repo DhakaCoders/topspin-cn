@@ -11,16 +11,26 @@
     font-size: 19.52px;
     padding-top: 20px;
 }
-.product-des-left-pera{
-	padding-right: 90px;
-}
 .product-des-controller p{
 	font-size: 19.52px;
 	margin-bottom: 20px;
+	padding-right: 90px;
 }
-
-.product-des-controller p br{
-	display: none;
+.product-des-controller ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.product-des-controller li{
+	position: relative;
+	padding-left: 15px;
+	margin-bottom: 3px;
+}
+.product-des-controller li:after{
+	content: '>';
+	position: absolute;
+	left: 0;
+	top: 0;
 }
 .product-des-controller hr{
 	border: 0;
@@ -124,12 +134,10 @@
 	background: transparent;
 	-moz-appearance:textfield;
 	appearance: none;
-	letter-spacing: 0.6px;
 	font-size: 18px;
 	line-height: 19px;
 	color: #45454c;
 	opacity: 1;
-	font-weight: 700;
 	padding-top: 8px;
 	padding-left: 8px;
 	text-align:left;
@@ -145,6 +153,8 @@
 }
 
 .pro-des-qty > strong{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 	display: inline-block;
 	vertical-align: baseline;
 	position: absolute;
@@ -181,8 +191,8 @@
 		padding-right: 15px;
 	    padding-left: 0;
 	}
-	.product-des-left-pera {
-	    padding-right: 0;
+	.product-des-controller p{
+		padding-right: 0;
 	}
 }
 
@@ -254,168 +264,4 @@
 @media(max-width: 359px){
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
