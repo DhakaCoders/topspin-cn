@@ -20,14 +20,14 @@ if (windowWidth <= 991) {
   if( $('.md-menu-humberger-btn').length ){
     $('.md-menu-humberger-btn').on('click', function(){
       $('.md-popup-main-menu-wrap').fadeIn(500);
-      $('body').addClass('srlOff');
+      $('body').addClass('bdySrlOff');
     });
   };
 
   if( $('.md-menu-popup-close-btn').length ){
     $('.md-menu-popup-close-btn').on('click', function(){
       $('.md-popup-main-menu-wrap').fadeOut(500);
-      $('body').removeClass('srlOff');
+      $('body').removeClass('bdySrlOff');
     });
   };
 }
