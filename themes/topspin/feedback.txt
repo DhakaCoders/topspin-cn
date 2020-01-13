@@ -40,6 +40,28 @@ Desktop---->
 11. https://www.screencast.com/t/mavkMBizXJ
 	html entity hobe --done
 
+Responsive----->
+1. i) https://www.screencast.com/t/i3PtToSLam
+   	scroll kore aikhane asar por, scroll korle body scroll hosche. body scroll hobena
+   ii) https://www.screencast.com/t/894vBP1Ts6OA
+	submenu te 6 ta item e rakho
+
+2. https://www.screencast.com/t/db4GbJ1KtE
+	grd gulo 1199px thake 3 ta daw
+	991px a 2 ta
+	575px a 1 ta
+
+3. https://www.screencast.com/t/0NWznnQwiAB
+	i) gap kom hobe
+
+4. https://www.screencast.com/t/NaQdS6KC
+	ai gap ta psd ar sathe match hoyni
+
+5. https://www.screencast.com/t/ByccG4BgPS
+	991px a ai content ta ai borabor rakho
+
+6. https://www.screencast.com/t/NRr109L5U
+	575px a amon hobe, footer bottom ta
 
 
 Product page
@@ -68,6 +90,11 @@ Desktop---->
 	gap besi hobe --done
 
 
+Responsive----->
+1. https://www.screencast.com/t/iIfNFcMAyR
+	i) img lege geche
+	ii) bottom gap ta psd ar sathe milay dekhe fix korte hobe
+
 
 Product Cat page
 --------------------
@@ -87,3 +114,13 @@ Desktop---->
 
 5. https://www.screencast.com/t/KBg7Wijurtl
 	gap besi hobe
+
+Responsive----->
+1. https://www.screencast.com/t/5PUeAFml
+	575px a ai sob border ar height aktu komate hobe
+
+2. https://www.screencast.com/t/kvDgl7fq4IiE
+	ai gap ta psd ar sathe match hoyni. komate hobe
+
+3. https://www.screencast.com/t/ngk72YzVn
+	footer ar top a akta fixed gap thakbe aktu besi. content full hole jeno kharap na lage
