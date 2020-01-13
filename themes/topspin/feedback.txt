@@ -42,26 +42,26 @@ Desktop---->
 
 Responsive----->
 1. i) https://www.screencast.com/t/i3PtToSLam
-   	scroll kore aikhane asar por, scroll korle body scroll hosche. body scroll hobena
+   	scroll kore aikhane asar por, scroll korle body scroll hosche. body scroll hobena red
    ii) https://www.screencast.com/t/894vBP1Ts6OA
-	submenu te 6 ta item e rakho
+	submenu te 6 ta item e rakho --done
 
 2. https://www.screencast.com/t/db4GbJ1KtE
 	grd gulo 1199px thake 3 ta daw
 	991px a 2 ta
-	575px a 1 ta
+	575px a 1 ta  --done
 
 3. https://www.screencast.com/t/0NWznnQwiAB
-	i) gap kom hobe
+	i) gap kom hobe --done
 
 4. https://www.screencast.com/t/NaQdS6KC
-	ai gap ta psd ar sathe match hoyni
+	ai gap ta psd ar sathe match hoyni --done
 
 5. https://www.screencast.com/t/ByccG4BgPS
-	991px a ai content ta ai borabor rakho
+	991px a ai content ta ai borabor rakho --done
 
 6. https://www.screencast.com/t/NRr109L5U
-	575px a amon hobe, footer bottom ta
+	575px a amon hobe, footer bottom ta --done
 
 
 Product page
@@ -93,7 +93,7 @@ Desktop---->
 Responsive----->
 1. https://www.screencast.com/t/iIfNFcMAyR
 	i) img lege geche
-	ii) bottom gap ta psd ar sathe milay dekhe fix korte hobe
+	ii) bottom gap ta psd ar sathe milay dekhe fix korte hobe --done
 
 
 Product Cat page
@@ -113,14 +113,14 @@ Desktop---->
 	hover korle arrow icon ta smoothly right a jay na --done
 
 5. https://www.screencast.com/t/KBg7Wijurtl
-	gap besi hobe
+	gap besi hobe --done
 
 Responsive----->
 1. https://www.screencast.com/t/5PUeAFml
-	575px a ai sob border ar height aktu komate hobe
+	575px a ai sob border ar height aktu komate hobe --done
 
 2. https://www.screencast.com/t/kvDgl7fq4IiE
-	ai gap ta psd ar sathe match hoyni. komate hobe
+	ai gap ta psd ar sathe match hoyni. komate hobe --done
 
 3. https://www.screencast.com/t/ngk72YzVn
-	footer ar top a akta fixed gap thakbe aktu besi. content full hole jeno kharap na lage
+	footer ar top a akta fixed gap thakbe aktu besi. content full hole jeno kharap na lage --done

@@ -242,7 +242,9 @@
 }
 
 @media(max-width: 575px){
-
+	.product-des-controller hr {
+	    border-top: 13px solid #eee;
+	}
 }
 
 @media(max-width: 479px){

@@ -366,7 +366,7 @@ nav.main-nav > ul > li.menu-item-has-children:hover > a:after{
         bottom: 0;
         background: #0e72b5;
         width: 100%;
-        opacity: .95;
+        opacity: .97;
     }
     .md-nav-bar-controller{
         position: fixed;

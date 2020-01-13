@@ -169,9 +169,6 @@
 	.glassworker-des-main {
 	    padding-right: 0;
 	}
-}
-
-@media(max-width: 991px){
 	.pro-grd-sec-innr li:nth-child(4n+1) {
 	    clear: initial;
 	}
@@ -186,7 +183,7 @@
 	}
 }
 
-@media(max-width: 767px){
+@media(max-width: 991px){ 
 	.pro-grd-sec-innr li:nth-child(3n+1) {
 	    clear: initial;
 	}
@@ -196,6 +193,10 @@
 	.pro-grd-sec-innr li {
 	    width: 50%;
 	}
+
+} 
+
+@media(max-width: 767px){
 	.pro-grd-des h2 {
 	    font-size: 21px;
 	}
@@ -213,5 +214,20 @@
 	    border-width: 5px;
 	    max-width: 380px;
 	    margin: 0 auto;
+	}
+	.pro-grd-sec-innr {
+	    padding: 20px 0 30px;
+	}
+	.pro-grd-des {
+	    padding: 10px 4px 15px 15px;
+	}
+	.pagebuilder-sec-3 {
+	    padding: 55px 0 30px;
+	}
+	.glassworker-sec-wrp {
+	    padding: 0;
+	}
+	.pagebuilder-sec-1 {
+	    padding: 40px 0 50px;
 	}
 }
