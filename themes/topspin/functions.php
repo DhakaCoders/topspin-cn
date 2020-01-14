@@ -39,7 +39,12 @@ if( !function_exists('cbv_theme_setup') ){
 		) );
 
 		register_nav_menus( array(
-      'cbv_main_menu' => __( 'Main Menu', THEME_NAME )
+      'cbv_main_menu' => __( 'Main Menu', THEME_NAME ),
+      'cbv_cat_menu' => __( 'Product Category Menu', THEME_NAME ),
+      'cbv_ft_menu1' => __( 'Footer Menu 1', THEME_NAME ),
+      'cbv_ft_menu2' => __( 'Footer Menu 2', THEME_NAME ),
+      'cbv_ft_menu3' => __( 'Footer Menu 3', THEME_NAME ),
+      'cbv_copyright_menu' => __( 'Copyright Menu', THEME_NAME ),
 		) );
 
 	}

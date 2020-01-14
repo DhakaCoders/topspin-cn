@@ -131,7 +131,10 @@
 	color: #f8f8f8;
 }
 
-
+.ftr-btm-lft span p {
+    margin: 0;
+    padding: 0;
+}
 
 
 
