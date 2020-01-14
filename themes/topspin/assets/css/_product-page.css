@@ -183,14 +183,66 @@
 }
 
 
+.woocommerce #content table.cart td.actions .coupon, .woocommerce table.cart td.actions .coupon, .woocommerce-page #content table.cart td.actions .coupon, .woocommerce-page table.cart td.actions .coupon {
+    display: none!important;
+}
 
+.woocommerce-cart button.button {
+    border-left: 8px solid #000!important;
+    background: #2354a5 !important;
+    color: #fff !important;
+    border-radius: 0 !important;
+}
 
+.woocommerce-cart .checkout-button.button.alt.wc-forward {
+    border-left: 8px solid #000!important;
+    background: #58b028 !important;
+}
+.woocommerce-cart .checkout-button.button.alt.wc-forward:hover {
+    border-left: 8px solid #58b028!important;
+    background: #000 !important;
+}
 
+.woocommerce-form-coupon-toggle {
+    display: none !important;
+}
 
+.woocommerce-checkout .woocommerce-input-wrapper {
+    width: 100%;
+}
+.woocommerce-checkout .woocommerce form .form-row label {
+    font-weight: 500;
+}
+.woocommerce-checkout .woocommerce-billing-fields input {
+    border: 1px solid #aaa;
+    height: 36px;
+    line-height: 38px;
+    border-radius: 4px;
+    padding: 0 10px;
+}
 
-
-
-
+.woocommerce-checkout #orderreview {
+    padding-top: 32px;
+    padding-bottom: 30px;
+}
+.woocommerce-checkout #orderreview .form-row {
+    display: inherit !important;
+}
+.woocommerce-checkout .woocommerce-terms-and-conditions-wrapper {
+    display: none;
+}
+.woocommerce-checkout button.button {
+    border-left: 8px solid #000!important;
+    background: #2354a5 !important;
+    color: #fff !important;
+    border-radius: 0 !important;
+}
+section.custom-page button.button {
+    border-left: 8px solid #000!important;
+    background: #2354a5 !important;
+    color: #fff !important;
+    border-radius: 0 !important;
+}
 @media(max-width: 1499px){
 
 }

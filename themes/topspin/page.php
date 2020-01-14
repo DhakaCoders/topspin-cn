@@ -3,7 +3,7 @@ get_header();
 ?>
 
 <?php while(have_posts()): the_post(); ?>
-<section class="main-content">
+<section class="main-content p-t-30">
   <div class="container">
       <div class="row">
         <div class="col-12">
