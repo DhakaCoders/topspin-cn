@@ -111,6 +111,21 @@ nav.main-nav > ul > li.current-menu-item > a,
 nav.main-nav > ul > li > a:hover{
     color:#0e72b5;
 }
+
+nav.main-nav ul li.cart-menu > a span {
+    position: absolute;
+    top: -12px;
+    right: -8px;
+    background: #58b028;
+    height: 16px;
+    width: 16px;
+    line-height: 17px;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    font-size: 10.56px;
+    font-family: 'Roboto-Medium';
+}
 .hdr-btm-links {
     background: #eeeeee;
     border-bottom: 10px solid #0e72b5;
@@ -157,7 +172,8 @@ nav.main-nav > ul > li > a:hover{
     position: relative;
     float: left;
 }
-.hdr-breadcrumbs ul li a {
+.hdr-breadcrumbs ul li a,
+.hdr-breadcrumbs ul li {
     display: block;
     position: relative;
     font-weight: 400;
@@ -176,7 +192,7 @@ nav.main-nav > ul > li > a:hover{
     content: '>';
     position: absolute;
     right: 0;
-    bottom: -7px;
+    bottom: -1px;
     color: #fff;
     font-size: 10px;
 }

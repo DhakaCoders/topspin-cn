@@ -42,7 +42,7 @@ if($('.mHc').length){
 
 //counter button
 if( $('.pro-des-qty').length ){
-  $('.qty').each(function() {
+  $('.qty-v2').each(function() {
     var spinner = $(this),
       input = spinner.find('input[type="number"]'),
       btnUp = spinner.find('.plus'),
@@ -79,3 +79,10 @@ if( $('.pro-des-qty').length ){
 
 
 })(jQuery);
+
+jQuery(document).ready(function($){
+  if($("#cart-count").length){
+    var cartCount = $("#cart-count").data('count');
+    $( "nav.main-nav ul li.cart-menu > a" ).append( "<span>"+cartCount+"</span>" );
+  }
+});

@@ -71,6 +71,8 @@ Includes->>
 include_once(THEME_DIR .'/inc/widgets-area.php');
 include_once(THEME_DIR .'/inc/cbv-functions.php');
 include_once(THEME_DIR .'/inc/breadcrumbs.php');
+include_once(THEME_DIR .'/inc/wc-functions.php');
+//include_once(THEME_DIR .'/acf-page-builder/acf-page-builder-field.php');
 
 /**
 ACF Option pages->>
@@ -235,12 +237,17 @@ add_filter( 'acf/location/rule_match/wc_prod_attr', function( $match, $rule, $op
 
 add_filter( 'wpcf7_autop_or_not', '__return_false' );
 
-
-function remove_editor() {
-  remove_post_type_support('page', 'editor');
+if( !function_exists('cbv_custom_both_breadcrump')){
+  function cbv_custom_both_breadcrump(){
+    if ( is_product_category() || is_product() || is_shop() || is_cart() || is_checkout()
+       || is_woocommerce() || is_product_tag() || is_account_page() || is_wc_endpoint_url()
+       || is_ajax()) {
+               woocommerce_breadcrumb();
+            }else{
+                cbv_breadcrumbs();
+            }
+    }
 }
-//add_action('admin_init', 'remove_editor');
-
 /**
 Debug->>
 */

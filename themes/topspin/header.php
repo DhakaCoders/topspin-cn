@@ -28,6 +28,12 @@
   $telefoon = get_field('telephone', 'options');
   $hdphone = $telefoon['telephone_header'];
   $trimphone = trim(str_replace($spacialArry, $replaceArray, $hdphone));
+
+  $cart_item_count = WC()->cart->get_cart_contents_count();
+  $cart_count_span = '';
+  if ( $cart_item_count ) {
+    echo '<span id="cart-count" data-count="'.$cart_item_count.'"></span>';
+  }
 ?>
 <header class="header">
   <div class="container">
@@ -121,3 +127,14 @@
     </div>
   </div>
 </header>
+<div class="hdr-btm-bq">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="hdr-breadcrumbs">
+          <?php cbv_custom_both_breadcrump(); ?>
+        </div>     
+      </div>
+    </div>
+  </div>
+</div>

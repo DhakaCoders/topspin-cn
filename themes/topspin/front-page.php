@@ -1,130 +1,40 @@
-<?php get_header(); ?>
-<div class="hdr-btm-bq">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <div class="hdr-breadcrumbs">
-          <ul>           
-            <li><a href="#">Home</a></li>
-          </ul>
-        </div>     
-      </div>
-    </div>
-  </div>
-</div>
-
-
+<?php get_header(); 
+$terms = get_terms( 'product_cat', 'orderby=count&hide_empty=0' );
+if ( ! empty( $terms ) && ! is_wp_error( $terms ) ){ ?>
 <section class="pro-grd-sec-wrp">
   <div class="container">
     <div class="row">
       <div class="col-12">
         <div class="pro-grd-sec-innr">
           <ul class="clearfix ulc">
+            <?php  
+              foreach ( $terms as $term ) { 
+              if ( isset($term->slug) && ($term->slug != 'uncategorized') ){ 
+                $thumbnail_id = get_term_meta( $term->term_id, 'thumbnail_id', true ); 
+                $cat_image = wp_get_attachment_image_src( $thumbnail_id, 'cat-thumb');
+                $term_link = get_term_link( $term );
+            ?>
             <li>
               <div class="pro-grd-main mHc">
                 <div class="pro-grd-img">
-                  <img src="<?php echo THEME_URI; ?>/assets/images/pro-grd-img-001.png" alt="">
+                  <img src="<?php echo $cat_image[0]; ?>" alt="<?php echo $term->name; ?>">
                 </div>                
                 <div class="pro-grd-des text-white">
-                  <h2>Montageliften</h2>
-                  <span>Til tot maar liefst 180kg.</span>                  
+                  <h2><?php echo $term->name; ?></h2>
+                  <span><?php echo $term->description; ?></span>                  
                 </div> 
-                <a href="#" class="overlay-link"> </a> 
+                <a href="<?php echo esc_url( $term_link ); ?>" class="overlay-link"> </a> 
               </div>
             </li>
-            <li>
-              <div class="pro-grd-main mHc">
-                <div class="pro-grd-img">
-                  <img src="<?php echo THEME_URI; ?>/assets/images/pro-grd-img-002.png" alt="">
-                </div>                
-                <div class="pro-grd-des text-white">
-                  <h2>KANAALLIFTEN</h2>
-                  <span>Til tot maar liefst 500kg.</span>                  
-                </div> 
-                <a href="#" class="overlay-link"> </a> 
-              </div>
-            </li>
-            <li>
-              <div class="pro-grd-main mHc">
-                <div class="pro-grd-img">
-                  <img src="<?php echo THEME_URI; ?>/assets/images/pro-grd-img-003.png" alt="">
-                </div>                
-                <div class="pro-grd-des text-white">
-                  <h2>GLASLIFTEN</h2>
-                  <span>Glas verplaatsen tot 400kg.</span>                  
-                </div> 
-                <a href="#" class="overlay-link"> </a> 
-              </div>
-            </li>
-            <li>
-              <div class="pro-grd-main mHc">
-                <div class="pro-grd-img">
-                  <img src="<?php echo THEME_URI; ?>/assets/images/pro-grd-img-004.png" alt="">
-                </div>                
-                <div class="pro-grd-des text-white">
-                  <h2>GLASROBOTS</h2>
-                  <span>Veel soorten en prijsklasses.</span>                  
-                </div> 
-                <a href="#" class="overlay-link"> </a> 
-              </div>
-            </li>
-            <li>
-              <div class="pro-grd-main mHc">
-                <div class="pro-grd-img">
-                  <img src="<?php echo THEME_URI; ?>/assets/images/pro-grd-img-005.png" alt="">
-                </div>                
-                <div class="pro-grd-des text-white">
-                  <h2>GLASZUIGERS</h2>
-                  <span>Hanteerd glas tot 1000kg.</span>                  
-                </div> 
-                <a href="#" class="overlay-link"> </a> 
-              </div>
-            </li>
-            <li>
-              <div class="pro-grd-main mHc">
-                <div class="pro-grd-img">
-                  <img src="<?php echo THEME_URI; ?>/assets/images/pro-grd-img-006.png" alt="">
-                </div>                
-                <div class="pro-grd-des text-white">
-                  <h2>GLASTRASNPORTERS</h2>
-                  <span>Handig en degelijk.</span>                  
-                </div> 
-                <a href="#" class="overlay-link"> </a> 
-              </div>
-            </li>
-            <li>
-              <div class="pro-grd-main mHc">
-                <div class="pro-grd-img">
-                  <img src="<?php echo THEME_URI; ?>/assets/images/pro-grd-img-007.png" alt="">
-                </div>
-                <div class="pro-grd-des text-white">
-                  <h2>PLATENLIFTEN</h2>
-                  <span>Hijs platen tot 5,1m hoogte.</span>                  
-                </div> 
-                <a href="#" class="overlay-link"> </a> 
-              </div>
-            </li>
-            <li>
-              <div class="pro-grd-main mHc">
-                <div class="pro-grd-img">
-                  <img src="<?php echo THEME_URI; ?>/assets/images/pro-grd-img-008.png" alt="">
-                </div>                
-                <div class="pro-grd-des text-white">
-                  <h2>POWERTOOLS</h2>
-                  <span>Ontdek de innovatieve powertools.</span>                  
-                </div> 
-                <a href="#" class="overlay-link"> </a> 
-              </div>
-            </li>
+            <?php } } ?>
           </ul>
         </div>
       </div>
     </div>
   </div>    
 </section>
-
 <?php 
-
+}
 $hbgsection = get_field('hbgsection', HOMEID);
 if($hbgsection):
   $fimgsrc = '';

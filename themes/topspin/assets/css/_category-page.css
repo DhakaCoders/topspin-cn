@@ -62,8 +62,23 @@
 .pro-cat-block-head .des-head-blc-mid strong{
 	font-weight: 500;
 	font-size: 31px;
-	display: inline-block;
+	display: inline-block !important;
 	vertical-align: middle;
+}
+.wccontent-inner header {
+    border: 0 !important;
+}
+.woocommerce ul.products li.product strong {
+    display: inline-block !important;
+}
+.woocommerce .woocommerce-Price-currencySymbol {
+    display: none !important;
+}
+.woocommerce .woocommerce-Price-amount.amount {
+    padding-right: 0 !important;
+}
+.woocommerce .term-description {
+    display: none !important;
 }
 .pro-des-head-blc .des-head-blc-rgt,
 .pro-cat-block-head .des-head-blc-rgt {
@@ -79,18 +94,24 @@
 	padding: 15px 14px;
 }
 .pro-des-head-blc .des-head-blc-rgt a,
-.pro-cat-block-head .des-head-blc-rgt a{
+.pro-cat-block-head .des-head-blc-rgt a,
+.pro-des-head-blc .des-head-blc-rgt button{
 	display: inline-block;
 	vertical-align: baseline;
-	font-size: 23px;
+	font-size: 23px !important;
 	padding: 7px 30px 7px 7px;
-	color: #fff;
-	background: #58b028;
+	color: #fff !important;
+	background: #58b028 !important;
 	position: relative;
-	border: 1px solid #58b028;
+	border: 1px solid #58b028 !important;
+	font-weight: 400 !important;
 }
-.pro-des-head-blc .des-head-blc-rgt a{
-	padding: 6px 7px;
+.pro-des-head-blc .des-head-blc-rgt a,
+.pro-des-head-blc .des-head-blc-rgt button{
+	padding: 6px 7px !important;
+}
+.pro-des-head-blc .des-head-blc-rgt button{
+	border-radius: 0 !important;
 }
 .pro-cat-block-head .des-head-blc-rgt a:after{
     content: "->";
@@ -103,7 +124,8 @@
 	transition: all .5s ease;
 }
 .pro-des-head-blc .des-head-blc-rgt a:hover,
-.pro-cat-block-head .des-head-blc-rgt a:hover{
+.pro-cat-block-head .des-head-blc-rgt a:hover,
+.pro-des-head-blc .des-head-blc-rgt button:hover{
 	color: #58b028;
 	background: #fff;
 }

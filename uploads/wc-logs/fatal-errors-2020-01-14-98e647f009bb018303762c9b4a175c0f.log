@@ -1,0 +1,26 @@
+2020-01-14T16:25:54+00:00 CRITICAL syntax error, unexpected '.' in E:\SERVER\XAMPP1\htdocs\2020\01\topspin\topspin-cn\themes\topspin\inc\wc-functions.php on line 93
+
+2020-01-14T18:26:07+00:00 CRITICAL Uncaught Error: Call to a member function price_html() on string in E:\SERVER\XAMPP1\htdocs\2020\01\topspin\topspin-cn\themes\topspin\woocommerce\single-product.php:41
+Stack trace:
+#0 E:\SERVER\XAMPP1\htdocs\2020\01\topspin\wp-includes\template-loader.php(98): include()
+#1 E:\SERVER\XAMPP1\htdocs\2020\01\topspin\wp-blog-header.php(19): require_once('E:\\SERVER\\XAMPP...')
+#2 E:\SERVER\XAMPP1\htdocs\2020\01\topspin\index.php(17): require('E:\\SERVER\\XAMPP...')
+#3 {main}
+  thrown in E:\SERVER\XAMPP1\htdocs\2020\01\topspin\topspin-cn\themes\topspin\woocommerce\single-product.php on line 41
+
+2020-01-14T18:26:48+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on string in E:\SERVER\XAMPP1\htdocs\2020\01\topspin\topspin-cn\themes\topspin\woocommerce\single-product.php:41
+Stack trace:
+#0 E:\SERVER\XAMPP1\htdocs\2020\01\topspin\wp-includes\template-loader.php(98): include()
+#1 E:\SERVER\XAMPP1\htdocs\2020\01\topspin\wp-blog-header.php(19): require_once('E:\\SERVER\\XAMPP...')
+#2 E:\SERVER\XAMPP1\htdocs\2020\01\topspin\index.php(17): require('E:\\SERVER\\XAMPP...')
+#3 {main}
+  thrown in E:\SERVER\XAMPP1\htdocs\2020\01\topspin\topspin-cn\themes\topspin\woocommerce\single-product.php on line 41
+
+2020-01-14T18:27:42+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in E:\SERVER\XAMPP1\htdocs\2020\01\topspin\topspin-cn\themes\topspin\woocommerce\single-product.php:26
+Stack trace:
+#0 E:\SERVER\XAMPP1\htdocs\2020\01\topspin\wp-includes\template-loader.php(98): include()
+#1 E:\SERVER\XAMPP1\htdocs\2020\01\topspin\wp-blog-header.php(19): require_once('E:\\SERVER\\XAMPP...')
+#2 E:\SERVER\XAMPP1\htdocs\2020\01\topspin\index.php(17): require('E:\\SERVER\\XAMPP...')
+#3 {main}
+  thrown in E:\SERVER\XAMPP1\htdocs\2020\01\topspin\topspin-cn\themes\topspin\woocommerce\single-product.php on line 26
+
