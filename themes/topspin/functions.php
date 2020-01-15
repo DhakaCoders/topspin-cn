@@ -23,7 +23,8 @@ if( !function_exists('cbv_theme_setup') ){
 			add_theme_support('category-thumbnails');
 		}
  
-
+    add_image_size( 'hcatgrid', 294, 234, true );
+    add_image_size( 'prodgrid', 60, 52, true );
 
 		
 		// add size to media uploader
@@ -58,7 +59,6 @@ Enqueue Scripts->>
 function cbv_theme_scripts(){
 	include_once( THEME_DIR . '/enq-scripts/bootstrap.php' );
 	include_once( THEME_DIR . '/enq-scripts/fonts.php' );
-  include_once( THEME_DIR . '/enq-scripts/fancybox.php' );
 	include_once( THEME_DIR . '/enq-scripts/matchheight.php' );
 	include_once( THEME_DIR . '/enq-scripts/theme.default.php' );
 }
@@ -72,7 +72,6 @@ include_once(THEME_DIR .'/inc/widgets-area.php');
 include_once(THEME_DIR .'/inc/cbv-functions.php');
 include_once(THEME_DIR .'/inc/breadcrumbs.php');
 include_once(THEME_DIR .'/inc/wc-functions.php');
-//include_once(THEME_DIR .'/acf-page-builder/acf-page-builder-field.php');
 
 /**
 ACF Option pages->>

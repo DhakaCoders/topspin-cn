@@ -26,7 +26,7 @@ global $product;
 $product_thumb = '';
 $thumb_id = get_post_thumbnail_id($product->get_id());
 if(!empty($thumb_id)){
-    $product_thumb = cbv_get_image_tag($thumb_id, 'woocommerce_thumbnail');
+    $product_thumb = cbv_get_image_tag($thumb_id, 'prodgrid');
 }
 do_action( 'woocommerce_before_single_product' );
 ?>
@@ -50,53 +50,9 @@ do_action( 'woocommerce_before_single_product' );
             	<?php wc_get_template_part( 'single-product/add-to-cart/simple'); ?>
             </div>
           </div>
-          <div class="product-des-tow-part clearfix">
-            <div class="product-des-left float-left">
-            <h1>Dé Nieuwe GENERATIE IN GLASROBOTS</h1>
-              <p>De Glassworker GW425 Offroad HL is de krachtigste en veiligste glasrobot in zijn klasse. Hij is uitgevoerd met sterke voorwielaandrijving en bredere geprofileerde luchtbanden en kan tot maximaal 425kg liften. </p> 
-              <p>Alle vacuümtechniek zit voor in de glaskop, waardoor deze 360°gedraaid kan worden en er geen vacuümslangen meer in de weg zitten of klem kunnen raken. </p> 
-              <p>De mast kan 2x 900mm telescoperen. De glaskop is een-voudig aan te passen aan de vorm en het gewicht van de last. Dit zonder dat er gereedschap benodigd is. </p>
-              <ul>
-                <li> Meer informatie over de Glassworker 425 offroad.</li>
-                <li> Bekijk alle glasrobots.</li>
-              </ul>    
-            </div>
-            <div class="product-des-right float-left">
-              <img src="<?php echo THEME_URI; ?>/assets/images/single-pro-img-001.png" alt="">
-            </div>
+          <div class="product-single-des psingle-pagebuilder">
+            <?php echo do_shortcode( get_the_content()); ?>
           </div>
-          <hr/>
-          <div class="product-table-con text-uppercase font-weight-light">
-            <table>
-              <tbody>
-                <tr>
-                  <td>Maximaal hefvermogen: <strong>625 kg.</strong></td>
-                  <td>Werkhoogte verticaal: <strong>3100 mm.</strong></td>
-                </tr>
-                <tr>
-                  <td>Maximaal hefvermogen: <strong>625 kg.</strong></td>
-                  <td>Gewicht zonder contragewichten: <strong>890 kg.</strong></td>
-                </tr>
-                <tr>
-                  <td>Maximaal hefvermogen: <strong>625 kg.</strong></td>
-                  <td>Werkhoogte verticaal: <strong>3100 mm.</strong></td>
-                </tr>
-                <tr>
-                  <td>Maximaal hefvermogen: <strong>625 kg.</strong></td>
-                  <td>Werkhoogte verticaal: <strong>3100 mm.</strong></td>
-                </tr>
-                <tr>
-                  <td>Maximaal hefvermogen: <strong>625 kg.</strong></td>
-                  <td>Werkhoogte verticaal: <strong>3100 mm.</strong></td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <hr/>
-          <div class="pro-page-dft-blc">
-            <h1>Een zelf in te delen product pagina \ landingpage</h1>
-            <span>Tekst voorbeeld.</span>          
-          </div>  
         </div>                          
       </div>
     </div>

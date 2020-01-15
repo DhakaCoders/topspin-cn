@@ -11,7 +11,7 @@ if ( ! empty( $terms ) && ! is_wp_error( $terms ) ){ ?>
               foreach ( $terms as $term ) { 
               if ( isset($term->slug) && ($term->slug != 'uncategorized') ){ 
                 $thumbnail_id = get_term_meta( $term->term_id, 'thumbnail_id', true ); 
-                $cat_image = wp_get_attachment_image_src( $thumbnail_id, 'cat-thumb');
+                $cat_image = wp_get_attachment_image_src( $thumbnail_id, 'hcatgrid');
                 $term_link = get_term_link( $term );
             ?>
             <li>
@@ -62,11 +62,11 @@ if($hbgsection):
 <?php endif; ?>
 
 <section class="frontpage pagebuilder">
-    <?php 
-      while(have_posts()): the_post();
-      echo do_shortcode( get_the_content());
-      endwhile;
-    ?>  
+  <?php 
+    while(have_posts()): the_post();
+    echo do_shortcode( get_the_content());
+    endwhile;
+  ?>  
 </section>
 
 <!-- gap -->

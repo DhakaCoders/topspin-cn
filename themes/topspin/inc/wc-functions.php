@@ -118,7 +118,7 @@ if (!function_exists('add_shorttext_below_title_loop')) {
         $product_thumb = '';
         $thumb_id = get_post_thumbnail_id($product->get_id());
         if(!empty($thumb_id)){
-            $product_thumb = cbv_get_image_tag($thumb_id, 'woocommerce_thumbnail');
+            $product_thumb = cbv_get_image_tag($thumb_id, 'prodgrid');
         }
         $sh_desc = $product->get_short_description();
         echo '<div class="pro-cat-block-head clearfix">
