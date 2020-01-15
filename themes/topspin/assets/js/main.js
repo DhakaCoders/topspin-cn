@@ -84,5 +84,6 @@ jQuery(document).ready(function($){
   if($("#cart-count").length){
     var cartCount = $("#cart-count").data('count');
     $( "nav.main-nav ul li.cart-menu > a" ).append( "<span>"+cartCount+"</span>" );
+    $( "nav.md-popup-main-nav ul li.cart-menu > a" ).append( "<span class='notification-cls'>"+cartCount+"</span>" );
   }
 });
