@@ -37,6 +37,7 @@
 }
 
 .product-des-controller.product-des-controller li{
+	width: 100% !important;
 	position: relative;
 	padding-left: 0;
     border: 10px solid #eee;
@@ -314,6 +315,7 @@ section.custom-page button.button {
 	    font-size: 25px;
 	    margin-bottom: 17px;
 	}
+	
 }
 
 @media(max-width: 575px){

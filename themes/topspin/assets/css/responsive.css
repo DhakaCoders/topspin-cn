@@ -72,6 +72,7 @@
 	h5{
 		 
 	}
+	
 }
 
 @media(max-width: 575px){
@@ -80,6 +81,11 @@
 	}
 	.show-xs{
 		display: block!important;
+	}
+	.woocommerce-checkout .woocommerce-checkout .form-row-first, 
+	.woocommerce-checkout .woocommerce-checkout .form-row-last{
+	    float: left;
+	    width: 100% !important;
 	}
 
 }
