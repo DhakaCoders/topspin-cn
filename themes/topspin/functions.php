@@ -114,27 +114,6 @@ return $query;
  
 add_filter('pre_get_posts','searchfilter');
 
-function get_custom_post_type_single_template($single_template) {
-     global $post;
-     if (is_search() && ! empty ( $_GET['s']) ) {
-          $single_template = get_template_part( 'search-template', null );
-     }
-     return $single_template;
-}
-
-//add_filter( "template_redirect", "get_custom_post_type_single_template" );
-
-function template_chooser($template)   
-{    
-  global $wp_query;    
-  if( $wp_query->is_search )   
-  {
-    return locate_template('search-template.php');  //  redirect to archive-search.php
-  }   
-  return $template;   
-}
-//add_filter('template_include', 'template_chooser');  
-
 function wpb_change_search_url() {
     if ( is_search() && ! empty( $_GET['s'] ) ) {
         wp_redirect( home_url( "/search/" ) . urlencode( get_query_var( 's' ) ) );
@@ -183,26 +162,6 @@ function custom_body_classes($classes){
 // call the filter for the body class
 add_filter('body_class', 'custom_body_classes');
 
-
-function wrapper_class(){
-  $class = '';
-  if ( is_page_template( 'page-about-token.php' ) ) {
-    $class = 'walletDark adExwd';
-  }
-  return $class;
-}
-
-function get_custom_excerpt() {
-  $excerpt = explode(' ', get_the_content(), $limit);
-  if (count($excerpt)>=$limit) {
-    array_pop($excerpt);
-    $excerpt = implode(" ",$excerpt);
-  } else {
-    $excerpt = implode(" ",$excerpt);
-  }	
-  $excerpt = preg_replace('`\[[^\]]*\]`',$dot,$excerpt);
-  return $excerpt;
-}
 
 /**
 ACF - Custom rule for WOO attribues
@@ -255,4 +214,3 @@ function printr($args){
 	print_r ($args);
 	echo '</pre>';
 }
-
