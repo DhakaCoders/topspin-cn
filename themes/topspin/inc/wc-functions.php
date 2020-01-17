@@ -32,9 +32,10 @@ function get_custom_wc_output_content_wrapper(){
 	if(is_product_category()){
         $cate = get_queried_object();
         $tcontent = get_field('top_content', 'product_cat' . '_' . $cate->term_id);
+        //var_dump($tcontent);
         if(!empty($tcontent)):
         echo '<div class="product-cat-top-block">';
-         echo do_shortcode( $tcontent );
+         echo do_shortcode( $tcontent->post_content );
         echo '</div>';
         endif;
 	}
@@ -46,7 +47,7 @@ function get_custom_wc_output_content_wrapper_end(){
         $bcontent = get_field('bottom_content', 'product_cat' . '_' . $cate->term_id);
         if(!empty($bcontent)):
         echo '<hr/><div class="cat-page-dft-blc">';
-         echo do_shortcode( $bcontent );
+         echo do_shortcode( $bcontent->post_content );
         echo '</div>';
         endif;
     }
