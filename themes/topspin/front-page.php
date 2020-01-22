@@ -61,14 +61,18 @@ if($hbgsection):
 </section>
 <?php endif; ?>
 
-<section class="frontpage pagebuilder">
+<section class="frontpage pagebuilder hh-pagebuilder-sec">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
   <?php 
     while(have_posts()): the_post();
-    echo do_shortcode( get_the_content());
+      the_content();
     endwhile;
-  ?>  
+  ?>   
+        </div>
+      </div>
+    </div> 
 </section>
 
-<!-- gap -->
-<div style="height: 55px"></div>
 <?php get_footer(); ?>

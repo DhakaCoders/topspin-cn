@@ -3,7 +3,7 @@
 	padding: 26px 0 22px;
 }
 .product-des-controller h1{
-	font-size: 39.14px;
+	font-size: 38px;
 	margin-bottom: 22px;
 	text-transform: uppercase;
 }
@@ -36,7 +36,7 @@
 	content: none !important;
 }
 
-.product-des-controller.product-des-controller li{
+.product-des-controller.product-des-controller li.product{
 	width: 100% !important;
 	position: relative;
 	padding-left: 0;
@@ -58,7 +58,8 @@
 .product-des-right {
 	width: 50%;
 }
-.product-des-right img{
+.product-des-right img,
+.product-main-img img{
 	margin-left: -57px;
 }
 .product-table-con{
@@ -70,13 +71,10 @@
 .product-des-controller table {
 	font-family: 'Oswald', sans-serif;
 	font-weight: 300;
-	font-size: 32.49px;
+	font-size: 32px;
     width: 100%;
     border-collapse: collapse;
-	text-transform: uppercase;
-	min-width: 744px;
 }
-.product-des-controller table tr,
 .product-des-controller table td{
 	border: 6px solid #fff;
 	background-color: #eee;
@@ -101,7 +99,7 @@
 	color: #333;
 	background-color: #fff;
 	border: 1px solid #58b028;
-	top: -3px;
+	top: -1px;
 }
 .pro-des-qty .qty-v2 .plus,
 .pro-des-qty .qty-v2 .minus{
@@ -175,6 +173,7 @@
 	-ms-transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);
+	margin-top: 2px;
 }
 
 
@@ -244,6 +243,29 @@ section.custom-page button.button {
     color: #fff !important;
     border-radius: 0 !important;
 }
+.hastable{
+	margin-left: -6px;
+	margin-right: -6px;
+}
+.woocommerce-notices-wrapper{
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-top: 30px;	
+}
+.woocommerce .woocommerce-customer-details address{
+	padding-bottom: 10px;
+}
+.woocommerce .woocommerce-customer-details .woocommerce-customer-details--email, 
+.woocommerce .woocommerce-customer-details .woocommerce-customer-details--phone {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+p.return-to-shop{
+	margin: 20px 0;
+}
+.woocommerce-cart.woocommerce-page .main-content{
+	padding-bottom: 30px;
+}
 @media(max-width: 1499px){
 
 }
@@ -303,6 +325,9 @@ section.custom-page button.button {
 	.product-des-controller table {
 	    font-size: 19px;
 	}
+	.product-main-img img{
+		margin-left: 0;
+	}
 
 }
 
@@ -314,6 +339,9 @@ section.custom-page button.button {
 	.product-des-controller h1 {
 	    font-size: 25px;
 	    margin-bottom: 17px;
+	}
+	.product-des-controller table {
+	    font-size: 16px;
 	}
 	
 }

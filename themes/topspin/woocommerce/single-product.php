@@ -51,7 +51,7 @@ do_action( 'woocommerce_before_single_product' );
             </div>
           </div>
           <div class="product-single-des psingle-pagebuilder">
-            <?php echo do_shortcode( get_the_content()); ?>
+            <?php the_content(); ?>
           </div>
         </div>                          
       </div>

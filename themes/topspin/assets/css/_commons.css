@@ -90,7 +90,6 @@ Containers
 }
 .container{
 	max-width: 1310px;
-	width: 100%;
 }
 .container-md{
 
@@ -99,7 +98,13 @@ Containers
 .container-sm{
 
 }
-
+.container-custom{
+	max-width: 1310px;
+	margin: 0 auto;
+}
+.col-12-custom{
+	padding: 0 15px;
+}
 
 .ulc{
 	margin: 0;

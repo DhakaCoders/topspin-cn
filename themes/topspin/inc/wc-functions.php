@@ -33,9 +33,18 @@ function get_custom_wc_output_content_wrapper(){
         $cate = get_queried_object();
         $tcontent = get_field('top_content', 'product_cat' . '_' . $cate->term_id);
         //var_dump($tcontent);
-        if(!empty($tcontent)):
+        if(!empty($tcontent) && $tcontent->ID):
         echo '<div class="product-cat-top-block">';
-         echo do_shortcode( $tcontent->post_content );
+        
+        $query = query_posts(array( 
+            'p' => $tcontent->ID, 
+            'post_type' => 'templates' )
+        );
+        while ( have_posts() ) : the_post();
+         the_content();
+        endwhile;
+        wp_reset_query(); wp_reset_postdata();
+
         echo '</div>';
         endif;
 	}
@@ -45,9 +54,18 @@ function get_custom_wc_output_content_wrapper_end(){
     if(is_product_category()){
         $cate = get_queried_object();
         $bcontent = get_field('bottom_content', 'product_cat' . '_' . $cate->term_id);
-        if(!empty($bcontent)):
+        if(!empty($bcontent) && $bcontent->ID):
         echo '<hr/><div class="cat-page-dft-blc">';
-         echo do_shortcode( $bcontent->post_content );
+        
+        $query = query_posts(array( 
+            'p' => $bcontent->ID, 
+            'post_type' => 'templates' )
+        );
+        while ( have_posts() ) : the_post();
+         the_content();
+        endwhile;
+        wp_reset_query(); wp_reset_postdata();
+
         echo '</div>';
         endif;
     }
